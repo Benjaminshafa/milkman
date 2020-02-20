@@ -73,7 +73,7 @@ wb.save('report.xls')
 # now upload it to Azure
 file_name = 'report.xls'
 account_name = 'milkman'
-account_key = 'Eg8jsq9Q0zsbi4ChNAU3yu9F6DzfsGOk/JkLAjtLRUQl3jpCd66N60jGQH9Wjga4rCiZfBVBaNnIKppbSBxAvQ=='
+account_key = ''
 container_name = 'milkman-container'
 
 block_blob_service = BlockBlobService(
